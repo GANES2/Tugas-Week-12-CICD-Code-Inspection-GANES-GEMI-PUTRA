@@ -17,5 +17,9 @@ public class Driver {
 		System.out.println("Current count:" + counter.getCount());
 		
 	}
+private static void unusedMethodForInspection() {
+    int temporaryValue = 10;
+    System.out.println("Temporary value: " + temporaryValue);
+}
 
 }
